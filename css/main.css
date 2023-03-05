@@ -47,3 +47,55 @@ img {
 .superinfo a {
   color: #fff;
 }
+
+/* MENU */
+.menu-bg {
+  background: #2c70ff;
+}
+
+.menu {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu-logo a {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.menu-nav a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 10px;
+
+}
+
+.menu-nav a:hover {
+  color: #122ab2;
+  cursor: pointer;
+}
+
+/* INTRO */
+.intro {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
